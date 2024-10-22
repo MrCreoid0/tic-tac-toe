@@ -72,7 +72,7 @@ wPlayer = None
 lPlayer = None
 p1score = 0
 p2score = 0
-roundNum = 1
+roundNum = 0
 myData =[player1,p1score],[player2,p2score]
 
 
@@ -193,6 +193,7 @@ while True:
         currentPlayer = 'X'
         winner = None
         gameRunning = True
+        roundNum+=1
 
         # Print initial board
         score()
